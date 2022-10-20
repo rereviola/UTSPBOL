@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="379.0" prefWidth="623.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uts_2019130011.FXMLDocumentController">
+    <children>
+      <ImageView fitHeight="354.0" fitWidth="671.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../87z_2205_w009_n001_133b_p14_133.jpg" />
+         </image>
+      </ImageView>
+      <MenuBar prefHeight="32.0" prefWidth="623.0">
+         <menus>
+            <Menu mnemonicParsing="false" text="Data">
+               <items>
+                  <MenuItem fx:id="displaydosen" mnemonicParsing="false" onAction="#displaydosenklik" text="Dosen" />
+                  <MenuItem fx:id="displayjurusan" mnemonicParsing="false" onAction="#displayjurusanklik" text="Jurusan" />
+                  <MenuItem fx:id="displaymatkul" mnemonicParsing="false" onAction="#displaymatkulklik" text="Mata Kuliah" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Input">
+               <items>
+                  <MenuItem fx:id="inputdosen" mnemonicParsing="false" onAction="#inputdosenklik" text="Dosen" />
+                  <MenuItem fx:id="inputjurusan" mnemonicParsing="false" onAction="#inputjurusanklik" text="Jurusan" />
+                  <MenuItem fx:id="inputmatkul" mnemonicParsing="false" onAction="#inputmatkulklik" text="Mata Kuliah" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="About" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+    </children>
+</AnchorPane>

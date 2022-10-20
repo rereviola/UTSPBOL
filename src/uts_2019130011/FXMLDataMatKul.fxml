@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="424.0" prefWidth="586.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uts_2019130011.FXMLDataMatKulController">
+   <children>
+      <ImageView fitHeight="457.0" fitWidth="610.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Top%20view%20of%20hands%20holding%20books%20flat%20vector%20illustration.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnakhir" layoutX="527.0" layoutY="177.0" mnemonicParsing="false" onAction="#akhirklik" prefHeight="45.0" prefWidth="51.0">
+         <graphic>
+            <ImageView fitHeight="33.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../pngwing.com%20(4).png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnsesudah" layoutX="527.0" layoutY="241.0" mnemonicParsing="false" onAction="#sesudahklik" prefHeight="45.0" prefWidth="51.0">
+         <graphic>
+            <ImageView fitHeight="33.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../pngwing.com%20(1).png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnsebelum" layoutX="14.0" layoutY="241.0" mnemonicParsing="false" onAction="#sebelumklik" prefHeight="45.0" prefWidth="51.0">
+         <graphic>
+            <ImageView fitHeight="38.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../pngwing.com.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnawal" layoutX="14.0" layoutY="177.0" mnemonicParsing="false" onAction="#awalklik" prefHeight="45.0" prefWidth="51.0">
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../pngwing.com%20(2).png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnhapus" layoutX="376.0" layoutY="361.0" mnemonicParsing="false" onAction="#hapusklik" prefHeight="45.0" prefWidth="51.0">
+         <graphic>
+            <ImageView fitHeight="38.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../pngwing.com%20(6).png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnubah" layoutX="274.0" layoutY="361.0" mnemonicParsing="false" onAction="#ubahklik" prefHeight="45.0" prefWidth="51.0">
+         <graphic>
+            <ImageView fitHeight="28.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../pngwing.com%20(3).png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btntambah" layoutX="169.0" layoutY="361.0" mnemonicParsing="false" onAction="#tambahklik" prefHeight="45.0" prefWidth="38.0">
+         <graphic>
+            <ImageView fitHeight="34.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../pngwing.com%20(5).png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <TableView fx:id="tbvmatkul" layoutX="80.0" layoutY="135.0" prefHeight="211.0" prefWidth="438.0">
+         <columns>
+            <TableColumn prefWidth="75.0" text="C1" />
+            <TableColumn prefWidth="75.0" text="C2" />
+         </columns>
+      </TableView>
+      <Label layoutX="206.0" layoutY="19.0" prefHeight="35.0" prefWidth="205.0" text="Data Mata Kuliah">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="91.0" text="Cari">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <TextField fx:id="searchmatkul" layoutX="118.0" layoutY="86.0" onKeyReleased="#cariData" prefHeight="31.0" prefWidth="101.0" />
+   </children>
+</AnchorPane>

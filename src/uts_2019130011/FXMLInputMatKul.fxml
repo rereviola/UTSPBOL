@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="293.0" prefWidth="381.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uts_2019130011.FXMLInputMatKulController">
+   <children>
+      <ImageView fitHeight="293.0" fitWidth="425.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Top%20view%20of%20hands%20holding%20books%20flat%20vector%20illustration.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="33.0" layoutY="196.0" text="Status" textFill="#8098f2">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtstatus" layoutX="169.0" layoutY="191.0" />
+      <Label layoutX="76.0" layoutY="14.0" text="Tambah/Edit Data Dosen">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnkeluar" layoutX="232.0" layoutY="239.0" mnemonicParsing="false" onAction="#keluarklik" text="Keluar" />
+      <Button fx:id="btnbatal" layoutX="162.0" layoutY="239.0" mnemonicParsing="false" onAction="#batalklik" prefHeight="31.0" prefWidth="62.0" text="Batal" />
+      <Button fx:id="btnsimpan" layoutX="82.0" layoutY="239.0" mnemonicParsing="false" onAction="#simpanklik" text="Simpan" />
+      <TextField fx:id="txtsks" layoutX="168.0" layoutY="152.0" />
+      <TextField fx:id="txtmatkul" layoutX="168.0" layoutY="116.0" />
+      <TextField fx:id="txtkodematkul" layoutX="168.0" layoutY="83.0" />
+      <Label layoutX="32.0" layoutY="157.0" text="Sks" textFill="#8098f2">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="121.0" text="Mata Kuliah" textFill="#8098f2">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="88.0" text="Kode Mata Kuliah" textFill="#8098f2">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

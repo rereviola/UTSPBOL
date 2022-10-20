@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="252.0" prefWidth="406.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uts_2019130011.FXMLInputJurusanController">
+   <children>
+      <ImageView fitHeight="263.0" fitWidth="406.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../11070.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="95.0" layoutY="30.0" text="Tambah/Edit Data Dosen">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnkeluar" layoutX="251.0" layoutY="189.0" mnemonicParsing="false" onAction="#keluarklik" text="Keluar" />
+      <Button fx:id="btnbatal" layoutX="181.0" layoutY="189.0" mnemonicParsing="false" onAction="#batalklik" prefHeight="31.0" prefWidth="62.0" text="Batal" />
+      <Button fx:id="btnsimpan" layoutX="101.0" layoutY="189.0" mnemonicParsing="false" onAction="#simpanklik" text="Simpan" />
+      <TextField fx:id="txtjurusan" layoutX="180.0" layoutY="132.0" />
+      <TextField fx:id="txtkodejuru" layoutX="180.0" layoutY="99.0" />
+      <Label layoutX="48.0" layoutY="137.0" text="Jurusan">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="104.0" text="Kode Jurusan">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
